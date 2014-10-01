@@ -6,17 +6,30 @@
 
 package webcamstreaming;
 
+import java.net.ServerSocket;
+import simplestream.LocalView;
+
+
+
 /**
  *
  * @author tural
  */
 public class WebCamStreaming {
+    final static int SERVER_PORT = 6262;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       try{
+           LocalView lv = new LocalView();
+           lv.
+       }
+       catch(Exception e){
+           e.printStackTrace();
+       }
+       
     }
     
 }
